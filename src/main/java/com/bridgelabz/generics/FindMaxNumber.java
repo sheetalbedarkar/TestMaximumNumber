@@ -31,4 +31,19 @@ public class FindMaxNumber {
             return b;
         }
     }
+
+    public String findMaxString(String a, String b, String c) {
+        if(a.compareTo(b) > 0) {
+            System.out.println("Maximum String is :: "+a);
+            return a;
+        }
+        else if( c.compareTo(b) > 0){
+            System.out.println("Maximum String is :: "+c);
+            return c;
+        }
+        else {
+            System.out.println("Maximum String is :: "+b);
+            return b;
+        }
+    }
 }
