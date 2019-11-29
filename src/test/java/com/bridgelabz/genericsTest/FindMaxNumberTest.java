@@ -66,4 +66,15 @@ public class FindMaxNumberTest {
         Assert.assertEquals((Double)9.9,maxNum);
     }
 
+    @Test
+    public void givenThreeStringInput_WhenMaximumNumber_onFirstPosition_shouldReturnTrue() {
+        String a = "peach";
+        String b = "apple";
+        String c = "Banana";
+        FindMaxNumber findMaxNum = new  FindMaxNumber();
+        String maxNum = findMaxNum.findMaxString(a,b,c);
+        Assert.assertEquals((String) "peach",maxNum);
+    }
+
+
 }
