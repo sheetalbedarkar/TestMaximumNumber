@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.FindMaxNumberTest.givenThreeStringInput_WhenMaximumNumber_onFirstPosition_shouldReturnTrue">
+  <component name="RunManager" selected="Gradle.FindMaxNumberTest.givenThreeStringInput_whenMaxString_onSecondPosition_shouldReturnTrue">
     <configuration name="FindMaxNumberTest.givenThreeDoubleInput_WhenMaximumNumber_onFirstPosition_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -117,26 +117,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FindMaxNumberTest.givenThreeInput_whenMaxNumber_onSecondPosition_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.genericsTest.FindMaxNumberTest.givenThreeInput_whenMaxNumber_onSecondPosition_shouldReturnTrue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="FindMaxNumberTest.givenThreeStringInput_WhenMaximumNumber_onFirstPosition_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -157,13 +137,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FindMaxNumberTest.givenThreeStringInput_whenMaxString_onSecondPosition_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.genericsTest.FindMaxNumberTest.givenThreeStringInput_whenMaxString_onSecondPosition_shouldReturnTrue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FindMaxNumberTest.givenThreeStringInput_whenMaxString_onSecondPosition_shouldReturnTrue" />
         <item itemvalue="Gradle.FindMaxNumberTest.givenThreeStringInput_WhenMaximumNumber_onFirstPosition_shouldReturnTrue" />
         <item itemvalue="Gradle.FindMaxNumberTest.givenThreeDoubleInput_WhenMaximumNumber_onThirdPosition_shouldReturnTrue" />
         <item itemvalue="Gradle.FindMaxNumberTest.givenThreeDoubleInput_whenMaxNumber_onSecondPosition_shouldReturnTrue" />
         <item itemvalue="Gradle.FindMaxNumberTest.givenThreeDoubleInput_WhenMaximumNumber_onFirstPosition_shouldReturnTrue" />
-        <item itemvalue="Gradle.FindMaxNumberTest.givenThreeInput_whenMaxNumber_onSecondPosition_shouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>
