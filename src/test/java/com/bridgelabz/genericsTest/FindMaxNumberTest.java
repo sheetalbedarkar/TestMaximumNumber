@@ -56,4 +56,14 @@ public class FindMaxNumberTest {
         Assert.assertEquals((Double)8.3,maxNum);
     }
 
+    @Test
+    public void givenThreeDoubleInput_WhenMaximumNumber_onThirdPosition_shouldReturnTrue() {
+        Double a = 5.2;
+        Double b = 7.8;
+        Double c = 9.9;
+        FindMaxNumber findMaxNum = new  FindMaxNumber();
+        Double maxNum = findMaxNum.findMaxDouble(a,b,c);
+        Assert.assertEquals((Double)9.9,maxNum);
+    }
+
 }
