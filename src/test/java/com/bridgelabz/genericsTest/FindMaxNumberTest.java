@@ -25,4 +25,14 @@ public class FindMaxNumberTest {
         Integer maxNum = findMaxNum.findMaxInteger(a,b,c);
         Assert.assertEquals((Integer)8,maxNum);
     }
+
+    @Test
+    public void givenThreeInput_WhenMaximumNumber_onThirdPosition_shouldReturnTrue() {
+        Integer a = 5;
+        Integer b = 7;
+        Integer c = 9;
+        FindMaxNumber findMaxNum = new  FindMaxNumber();
+        Integer maxNum = findMaxNum.findMaxInteger(a,b,c);
+        Assert.assertEquals((Integer)9,maxNum);
+    }
 }

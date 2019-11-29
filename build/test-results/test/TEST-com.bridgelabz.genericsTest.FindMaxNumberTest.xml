@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.genericsTest.FindMaxNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-29T07:09:53" hostname="sheetal-lenovo-v130-15ikb" time="0.003">
+<testsuite name="com.bridgelabz.genericsTest.FindMaxNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-29T07:13:46" hostname="sheetal-lenovo-v130-15ikb" time="0.004">
   <properties/>
-  <testcase name="givenThreeInput_whenMaxNumber_onSecondPosition_shouldReturnTrue" classname="com.bridgelabz.genericsTest.FindMaxNumberTest" time="0.003"/>
-  <system-out><![CDATA[Maximum Number is :: 8
+  <testcase name="givenThreeInput_WhenMaximumNumber_onThirdPosition_shouldReturnTrue" classname="com.bridgelabz.genericsTest.FindMaxNumberTest" time="0.004"/>
+  <system-out><![CDATA[Maximum Number is :: 9
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
