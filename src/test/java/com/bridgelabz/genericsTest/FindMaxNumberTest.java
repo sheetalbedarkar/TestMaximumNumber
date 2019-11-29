@@ -70,7 +70,7 @@ public class FindMaxNumberTest {
     public void givenThreeStringInput_WhenMaximumString_onFirstPosition_shouldReturnTrue() {
         String a = "peach";
         String b = "apple";
-        String c = "Banana";
+        String c = "banana";
         FindMaxNumber findMaxNum = new  FindMaxNumber();
         String maxNum = findMaxNum.findMaxString(a,b,c);
         Assert.assertEquals((String) "peach",maxNum);
@@ -80,10 +80,19 @@ public class FindMaxNumberTest {
     public void givenThreeStringInput_whenMaxString_onSecondPosition_shouldReturnTrue() {
         String a = "apple";
         String b = "peach";
-        String c = "Banana";
+        String c = "banana";
         FindMaxNumber findMaxNum = new  FindMaxNumber();
         String maxNum = findMaxNum.findMaxString(a,b,c);
         Assert.assertEquals((String) "peach",maxNum);
     }
 
+    @Test
+    public void givenThreeStringInput_WhenMaximumString_onThirdPosition_shouldReturnTrue() {
+        String a = "apple";
+        String b = "banana";
+        String c = "peach";
+        FindMaxNumber findMaxNum = new  FindMaxNumber();
+        String maxNum = findMaxNum.findMaxString(a,b,c);
+        Assert.assertEquals((String) "peach",maxNum);
+    }
 }

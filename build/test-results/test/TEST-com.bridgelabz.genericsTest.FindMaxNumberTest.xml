@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.genericsTest.FindMaxNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-29T09:51:56" hostname="sheetal-lenovo-v130-15ikb" time="0.004">
+<testsuite name="com.bridgelabz.genericsTest.FindMaxNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-29T09:59:08" hostname="sheetal-lenovo-v130-15ikb" time="0.004">
   <properties/>
-  <testcase name="givenThreeStringInput_whenMaxString_onSecondPosition_shouldReturnTrue" classname="com.bridgelabz.genericsTest.FindMaxNumberTest" time="0.004"/>
+  <testcase name="givenThreeStringInput_WhenMaximumString_onThirdPosition_shouldReturnTrue" classname="com.bridgelabz.genericsTest.FindMaxNumberTest" time="0.004"/>
   <system-out><![CDATA[Maximum String is :: peach
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
