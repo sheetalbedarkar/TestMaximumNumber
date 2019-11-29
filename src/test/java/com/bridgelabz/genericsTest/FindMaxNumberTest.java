@@ -11,8 +11,8 @@ public class FindMaxNumberTest {
         Integer a = 10;
         Integer b = 7;
         Integer c = 8;
-        FindMaxNumber findMaxNum = new  FindMaxNumber();
-        Integer maxNum = findMaxNum.findMaxInteger(a,b,c);
+        FindMaxNumber<Integer> findMaxNum = new  FindMaxNumber<>(a, b, c);
+        Comparable maxNum = findMaxNum.findMaxValue();
         Assert.assertEquals((Integer)10,maxNum);
     }
 
@@ -21,8 +21,8 @@ public class FindMaxNumberTest {
         Integer a = 1;
         Integer b = 8;
         Integer c = 4;
-        FindMaxNumber findMaxNum = new  FindMaxNumber();
-        Integer maxNum = findMaxNum.findMaxInteger(a,b,c);
+        FindMaxNumber<Integer> findMaxNum = new  FindMaxNumber<>(a, b, c);
+        Comparable maxNum = findMaxNum.findMaxValue();
         Assert.assertEquals((Integer)8,maxNum);
     }
 
@@ -31,8 +31,8 @@ public class FindMaxNumberTest {
         Integer a = 5;
         Integer b = 7;
         Integer c = 9;
-        FindMaxNumber findMaxNum = new  FindMaxNumber();
-        Integer maxNum = findMaxNum.findMaxInteger(a,b,c);
+        FindMaxNumber<Integer> findMaxNum = new  FindMaxNumber<>(a, b, c);
+        Comparable maxNum = findMaxNum.findMaxValue();
         Assert.assertEquals((Integer)9,maxNum);
     }
 
@@ -41,8 +41,8 @@ public class FindMaxNumberTest {
         Double a = 10.5;
         Double b = 7.1;
         Double c = 8.9;
-        FindMaxNumber findMaxNum = new  FindMaxNumber();
-        Double maxNum = findMaxNum.findMaxDouble(a,b,c);
+        FindMaxNumber<Double> findMaxNum = new  FindMaxNumber(a,b,c);
+        Comparable maxNum = findMaxNum.findMaxValue();
         Assert.assertEquals((Double) 10.5,maxNum);
     }
 
@@ -51,8 +51,8 @@ public class FindMaxNumberTest {
         Double a = 1.9;
         Double b = 8.3;
         Double c = 4.7;
-        FindMaxNumber findMaxNum = new  FindMaxNumber();
-        Double maxNum = findMaxNum.findMaxDouble(a,b,c);
+        FindMaxNumber<Double> findMaxNum = new  FindMaxNumber(a,b,c);
+        Comparable maxNum = findMaxNum.findMaxValue();
         Assert.assertEquals((Double)8.3,maxNum);
     }
 
@@ -61,8 +61,8 @@ public class FindMaxNumberTest {
         Double a = 5.2;
         Double b = 7.8;
         Double c = 9.9;
-        FindMaxNumber findMaxNum = new  FindMaxNumber();
-        Double maxNum = findMaxNum.findMaxDouble(a,b,c);
+        FindMaxNumber<Double> findMaxNum = new  FindMaxNumber(a,b,c);
+        Comparable maxNum = findMaxNum.findMaxValue();
         Assert.assertEquals((Double)9.9,maxNum);
     }
 
@@ -71,8 +71,8 @@ public class FindMaxNumberTest {
         String a = "peach";
         String b = "apple";
         String c = "banana";
-        FindMaxNumber findMaxNum = new  FindMaxNumber();
-        String maxNum = findMaxNum.findMaxString(a,b,c);
+        FindMaxNumber<String> findMaxNum = new  FindMaxNumber(a,b,c);
+        Comparable maxNum = findMaxNum.findMaxValue();
         Assert.assertEquals((String) "peach",maxNum);
     }
 
@@ -81,8 +81,8 @@ public class FindMaxNumberTest {
         String a = "apple";
         String b = "peach";
         String c = "banana";
-        FindMaxNumber findMaxNum = new  FindMaxNumber();
-        String maxNum = findMaxNum.findMaxString(a,b,c);
+        FindMaxNumber<String> findMaxNum = new  FindMaxNumber(a,b,c);
+        Comparable maxNum = findMaxNum.findMaxValue();
         Assert.assertEquals((String) "peach",maxNum);
     }
 
@@ -91,8 +91,8 @@ public class FindMaxNumberTest {
         String a = "apple";
         String b = "banana";
         String c = "peach";
-        FindMaxNumber findMaxNum = new  FindMaxNumber();
-        String maxNum = findMaxNum.findMaxString(a,b,c);
+        FindMaxNumber<String> findMaxNum = new  FindMaxNumber(a,b,c);
+        Comparable maxNum = findMaxNum.findMaxValue();
         Assert.assertEquals((String) "peach",maxNum);
     }
 }
