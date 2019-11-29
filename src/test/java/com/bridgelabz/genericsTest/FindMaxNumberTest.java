@@ -7,7 +7,7 @@ import org.junit.Test;
 public class FindMaxNumberTest {
 
     @Test
-    public void givenThreeInput_WhenMaximumNumber_onFirstPosition_shouldReturnTrue() {
+    public void givenThreeIntegerInput_WhenMaximumNumber_onFirstPosition_shouldReturnTrue() {
         Integer a = 10;
         Integer b = 7;
         Integer c = 8;
@@ -17,7 +17,7 @@ public class FindMaxNumberTest {
     }
 
     @Test
-    public void givenThreeInput_whenMaxNumber_onSecondPosition_shouldReturnTrue() {
+    public void givenThreeIntegerInput_whenMaxNumber_onSecondPosition_shouldReturnTrue() {
         Integer a = 1;
         Integer b = 8;
         Integer c = 4;
@@ -27,7 +27,7 @@ public class FindMaxNumberTest {
     }
 
     @Test
-    public void givenThreeInput_WhenMaximumNumber_onThirdPosition_shouldReturnTrue() {
+    public void givenThreeIntegerInput_WhenMaximumNumber_onThirdPosition_shouldReturnTrue() {
         Integer a = 5;
         Integer b = 7;
         Integer c = 9;
@@ -35,4 +35,15 @@ public class FindMaxNumberTest {
         Integer maxNum = findMaxNum.findMaxInteger(a,b,c);
         Assert.assertEquals((Integer)9,maxNum);
     }
+
+    @Test
+    public void givenThreeDoubleInput_WhenMaximumNumber_onFirstPosition_shouldReturnTrue() {
+        Double a = 10.5;
+        Double b = 7.1;
+        Double c = 8.9;
+        FindMaxNumber findMaxNum = new  FindMaxNumber();
+        Double maxNum = findMaxNum.findMaxDouble(a,b,c);
+        Assert.assertEquals((Double) 10.5,maxNum);
+    }
+
 }
